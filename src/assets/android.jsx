@@ -1,5 +1,4 @@
 import React from "react";
-import { withPhysics } from "../components/with-physics";
 
 const Android = (props) => {
   return (
@@ -35,4 +34,4 @@ const Android = (props) => {
   );
 };
 
-export default withPhysics(Android);
+export default Android;

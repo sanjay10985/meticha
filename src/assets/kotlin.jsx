@@ -1,5 +1,4 @@
 import React from "react";
-import { withPhysics } from "../components/with-physics";
 
 const Kotlin = (props) => {
   return (
@@ -70,4 +69,4 @@ const Kotlin = (props) => {
   );
 };
 
-export default withPhysics(Kotlin);
+export default Kotlin;

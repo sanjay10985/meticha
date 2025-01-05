@@ -1,5 +1,4 @@
 import React from "react";
-import { withPhysics } from "../components/with-physics";
 
 const Artifact = () => {
   return (
@@ -31,4 +30,4 @@ const Artifact = () => {
   );
 };
 
-export default withPhysics(Artifact);
+export default Artifact;

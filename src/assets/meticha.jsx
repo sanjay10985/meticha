@@ -1,5 +1,4 @@
 import React from "react";
-import { withPhysics } from "../components/with-physics";
 
 const Meticha = (props) => {
   return (
@@ -11,4 +10,4 @@ const Meticha = (props) => {
   );
 };
 
-export default withPhysics(Meticha);
+export default Meticha;

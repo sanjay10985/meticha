@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { withPhysics } from "./with-physics";
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -36,7 +35,7 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className=" flex justify-center items-center  absolute  left-0 right-0  bottom-0 top-0 p-4">
+    <div className=" flex ">
       <div className="flex gap-2">
         <AnimatePresence mode="popLayout">
           {Object.entries(timeLeft).map(([unit, value], index) => (
